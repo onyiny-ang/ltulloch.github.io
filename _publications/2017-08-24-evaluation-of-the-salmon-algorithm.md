@@ -1,6 +1,6 @@
 ---
-title: "Evaluation of the Salmon Algorithm"
-authors: 'John Orth, Sheridan Houghten, and <strong> Lindsey Tulloch <strong>'
+title: 'Evaluation of the Salmon Algorithm'
+authors: 'John Orth, Sheridan Houghten, and <strong> Lindsey Tulloch </strong>'
 type: 'conference'
 booktitle: '2017 IEEE Conference on Computational Intelligence in Bioinforma  tics and Computational Biology (CIBCB)'
 collection: publications

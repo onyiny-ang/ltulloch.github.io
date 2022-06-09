@@ -13,7 +13,7 @@ locale                   : "en-US"
 title                    : "Lindsey Tulloch"
 title_separator          : "-"
 name                     : &name "Lindsey Tulloch"
-description              : &description "Master of Math Candidate at the University of Waterloo"
+description              : &description "Master of Mathematics, Privacy and Security Researcher, Software Engineer"
 url                      : https://onyiny-ang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "onyiny-ang/onyiny-ang.github.io"
@@ -85,11 +85,11 @@ analytics:
 author:
   name             : "Lindsey Tulloch"
   avatar           : "square.jpg"
-  bio              : "Master of Math Canadidate at the University of Waterloo"
+  bio              : "Master of Mathematics, Privacy and Security Researc  her, Software Engineer"
   location         : "Waterloo, Canada"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=aCYCemoAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -184,9 +184,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
+      # portfolio:
+      # output: false
+      #permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -231,14 +231,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+  #    path: ""
+  #    type: portfolio
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comment: true
   # _talks
   - scope:
       path: ""
